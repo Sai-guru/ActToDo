@@ -1,12 +1,31 @@
-# React + Vite
+# React Todo Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+This project is a simple yet functional React application that includes user authentication (Signup and Login) and a Todo List feature. It allows users to register, log in, and manage their to-do tasks effectively. The application is responsive and designed for seamless user experience across devices.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **User Authentication**:
+  - Signup with a unique username and password.
+  - Login functionality with error handling for invalid credentials.
+
+- **Todo Management**:
+  - Add, delete, and manage tasks in a structured list.
+  - User-specific todo lists based on login.
+
+- **Responsive Design**:
+  - Ensures compatibility across devices of different screen sizes.
+
+- **Automatic Redirect on Page Reload**:
+  - Automatically redirects users to the login page upon a browser refresh.
+
+---
+
+## Technologies Used
+
+- **Frontend**: React (JSX, useState, useEffect, React Router)
+- **Styling**: Tailwind CSS for a clean and responsive design
+- **Routing**: React Router for navigation
